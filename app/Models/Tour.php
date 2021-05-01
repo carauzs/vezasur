@@ -9,5 +9,6 @@ class Tour extends Model
 {
     use HasFactory;
 
+    protected $casts = ['images' => 'array'];
     protected $table = 'tour';
 }

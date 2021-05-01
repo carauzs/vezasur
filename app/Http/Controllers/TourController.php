@@ -17,7 +17,7 @@ class TourController extends Controller
     public function tour(Request $request, $tourId)
     {
         return view('tour', [
-            'tour' => Tour::find($tourId)
+            'tour' => Tour::find($tourId),
         ]);
     }
 }

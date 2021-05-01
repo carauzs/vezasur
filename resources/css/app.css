@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.tour-page {
+    .swiper-container {
+        @apply rounded-md;
+    }
+    .swiper-pagination-bullet {
+        background-color: theme('colors.red-theme');
+        margin: 0 5px;
+        width: 10px;
+        height: 10px;
+    }
+}
