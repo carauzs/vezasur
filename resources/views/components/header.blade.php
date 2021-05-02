@@ -3,7 +3,7 @@
         <div class="flex justify-start lg:w-0 lg:flex-1 sm:mt-5">
             <a href="#">
                 <span class="sr-only">Veza Sur</span>
-                <img class="h-10 w-auto sm:h-12" src="/images/logo.png" alt="Vezasur">
+                <img class="h-10 w-auto sm:h-12" src="images/logo.png" alt="Vezasur">
             </a>
         </div>
         <div class="flex ml-auto space-x-3">

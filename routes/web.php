@@ -16,3 +16,5 @@ use App\Http\Controllers\TourController;
 
 Route::get('/', [TourController::class, 'home']);
 Route::get('/tour/{tourId}', [TourController::class, 'tour']);
+Route::get('/tour/{tourId}/contact', [TourController::class, 'contactInfo']);
+Route::get('/who', [TourController::class, 'who']);

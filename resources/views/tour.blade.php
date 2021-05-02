@@ -54,7 +54,7 @@
                 </div>
             </div>
             <div class="mt-12 text-right">
-                <a href="" target="_blank" class="inline-flex justify-center px-12 py-2 border border-transparent leading-4 font-bold text-lg rounded-md shadow-sm text-white bg-black hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-700">CONTINUE</a>
+                <a href="/{{ $tour->id }}/contact" class="inline-flex justify-center w-52 py-2 border border-transparent leading-4 font-bold text-lg rounded-md shadow-sm text-white bg-black hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-700">CONTINUE</a>
             </div>
         </div>
     </div>
