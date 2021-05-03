@@ -1,7 +1,11 @@
 {
     "/js/app.js": "/js/app.js",
     "/js/tour.js": "/js/tour.js",
+    "/js/contact.js": "/js/contact.js",
+    "/js/resume.js": "/js/resume.js",
     "/css/app.css": "/css/app.css",
+    "/css/tour.css": "/css/tour.css",
+    "/images/bg_map.png": "/images/bg_map.png",
     "/images/bottom_header_slide.png": "/images/bottom_header_slide.png",
     "/images/logo.png": "/images/logo.png",
     "/images/logo_koi.png": "/images/logo_koi.png",
@@ -10,5 +14,9 @@
     "/images/top_header_slide.png": "/images/top_header_slide.png",
     "/images/vezasur1.png": "/images/vezasur1.png",
     "/images/vezasur2.png": "/images/vezasur2.png",
-    "/images/vezasur3.png": "/images/vezasur3.png"
+    "/images/vezasur3.png": "/images/vezasur3.png",
+    "/images/vezasur4.png": "/images/vezasur4.png",
+    "/images/vezasur5.png": "/images/vezasur5.png",
+    "/images/vezasur6.png": "/images/vezasur6.png",
+    "/images/vezasur7.png": "/images/vezasur7.png"
 }

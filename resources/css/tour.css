@@ -1,0 +1,28 @@
+@import 'vanillajs-datepicker/dist/css/datepicker.min.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.datepicker-picker {
+    border: 1px solid theme('colors.red-theme');
+    border-radius: 10px;
+    overflow: hidden;
+    .datepicker-header {
+        border-bottom: 1px solid theme('colors.red-theme');
+    }
+    .datepicker-main {
+        background-color: theme('colors.gray.100');
+    }
+    .datepicker-cell.selected, .datepicker-cell.selected:hover {
+        background-color: theme('colors.red-theme');
+        border-radius: 50%;
+    }
+    .datepicker-cell.focused, .datepicker-cell:not(.disabled):hover {
+        border-radius: 50%;
+    }
+}
+
+.time-container {
+    max-width: 258px;
+    margin: 0 auto;
+}

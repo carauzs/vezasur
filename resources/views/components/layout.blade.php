@@ -7,7 +7,8 @@
     <title>Vezasur</title>
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
 
     <!-- Styles -->
     <style>
@@ -19,6 +20,10 @@
             font-family: 'Nunito', sans-serif;
         }
     </style>
+
+    <script src="{{ mix('/js/app.js') }}"></script>
+
+    @stack('styles')
 
     @stack('scripts')
 

@@ -14,6 +14,13 @@ const mix = require('laravel-mix');
 mix
     .js('resources/js/app.js', 'public/js')
     .js('resources/js/tour.js', 'public/js')
+    .js('resources/js/contact.js', 'public/js')
+    .js('resources/js/resume.js', 'public/js')
+    .postCss('resources/css/tour.css', 'public/css', [
+        require('tailwindcss'),
+        require('postcss-nested'),
+        require('postcss-import')
+    ])
     .postCss('resources/css/app.css', 'public/css', [
         require('tailwindcss'),
         require('postcss-nested'),

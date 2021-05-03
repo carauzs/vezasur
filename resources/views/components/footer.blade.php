@@ -1,9 +1,9 @@
 <div class="max-w-6xl mx-auto flex justify-center py-6 font-semibold">
-    <div class="px-8 border-r-2 border-red-theme">HOME</div>
-    <div class="px-8 border-r-2 border-red-theme">TOURS</div>
-    <div class="px-8 border-r-2 border-red-theme">COMPANY</div>
-    <div class="px-8 border-r-2 border-red-theme">MORE</div>
-    <div class="px-8">CALL US: +1 786 3039208</div>
+    <div class="px-8 border-r-2 border-red-theme text-lg">HOME</div>
+    <div class="px-8 border-r-2 border-red-theme text-lg">TOURS</div>
+    <div class="px-8 border-r-2 border-red-theme text-lg">COMPANY</div>
+    <div class="px-8 border-r-2 border-red-theme text-lg">MORE</div>
+    <div class="px-8 text-lg">CALL US: +1 786 3039208</div>
 </div>
 <div class="bg-footer-slider h-2.5"></div>
 <footer class="bg-black">

@@ -1,8 +1,11 @@
-@push('styles-end')
+@push('styles')
     <link href="{{ asset('css/tour.css') }}" rel="stylesheet">
 @endpush
 
 @push('scripts-end')
+    <script>
+        window.tour_id = @json($tour->id);
+    </script>
     <script src="{{ mix('/js/tour.js') }}"></script>
 @endpush
 
@@ -25,13 +28,15 @@
                     </div>
                 </div>
                 <div class="col-span-1">
-                    <div class="bg-red-theme font-bold text-xl text-white text-center mb-2 py-1 rounded-md">{{ $tour->name }}</div>
+                    <div class="bg-red-theme font-bold text-2xl text-white text-center mb-2 py-1 rounded-md">{{ $tour->name }}</div>
                     <div class="px-12">
                         <div class="text-center mb-2">SELECT YOUR DATE:</div>
-                        <div class="calendar mb-2"></div>
-                        <div class="space-y-2">
+                        <div class="mb-2 flex items-center justify-center">
+                            <div id="calendar" data-date="{{ now()->format('m/d/Y') }}"></div>
+                        </div>
+                        <div class="space-y-2 time-container">
                             <div class="flex items-center">
-                                <input id="first_slot" name="time" type="radio" value="15:00" class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+                                <input id="first_slot" name="time" type="radio" value="15:00" class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300" checked>
                                 <label for="first_slot" class="ml-3 block text-sm font-medium">
                                     3:00 P.M.
                                 </label>
@@ -42,19 +47,19 @@
                                     6:00 P.M.
                                 </label>
                             </div><div class="flex items-center">
-                                <input id="thid_slot" name="time" type="radio" value="21:00" class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
-                                <label for="thid_slot" class="ml-3 block text-sm font-medium">
+                                <input id="third_slot" name="time" type="radio" value="21:00" class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+                                <label for="third_slot" class="ml-3 block text-sm font-medium">
                                     9:00 P.M.
                                 </label>
                             </div>
                         </div>
                         <hr class="mt-5 mb-5">
-                        <a href="" target="_blank" class="flex w-full justify-center text-xl px-3.5 py-3 border border-transparent font-semibold rounded-md shadow-sm text-white bg-red-theme focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-theme leading-5 text-center">CLICK TO BUY VEZA SUR BEER</a>
+                        <a href="#" target="_blank" class="flex w-full justify-center text-xl px-3.5 py-3 border border-transparent font-semibold rounded-md shadow-sm text-white bg-red-theme focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-theme leading-5 text-center">CLICK TO BUY VEZA SUR BEER</a>
                     </div>
                 </div>
             </div>
             <div class="mt-12 text-right">
-                <a href="/{{ $tour->id }}/contact" class="inline-flex justify-center w-52 py-2 border border-transparent leading-4 font-bold text-lg rounded-md shadow-sm text-white bg-black hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-700">CONTINUE</a>
+                <button id="submit" type="button" class="inline-flex justify-center w-60 py-2 border border-transparent leading-4 font-bold text-lg rounded-md shadow-sm text-white bg-black hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-700">CONTINUE</button>
             </div>
         </div>
     </div>

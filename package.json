@@ -15,11 +15,14 @@
         "laravel-mix": "^6.0.6",
         "lodash": "^4.17.19",
         "postcss": "^8.2.13",
+        "postcss-import": "^14.0.1",
         "postcss-nested": "^5.0.5",
-        "tailwindcss": "^2.1.2"
+        "tailwindcss": "^2.1.2",
+        "vanillajs-datepicker": "^1.1.4"
     },
     "dependencies": {
         "@tailwindcss/forms": "^0.3.2",
+        "dayjs": "^1.10.4",
         "swiper": "^6.5.9",
         "vue": "^3.0.11"
     }

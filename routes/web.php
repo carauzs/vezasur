@@ -14,7 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 use App\Http\Controllers\TourController;
 
-Route::get('/', [TourController::class, 'home']);
-Route::get('/tour/{tourId}', [TourController::class, 'tour']);
-Route::get('/tour/{tourId}/contact', [TourController::class, 'contactInfo']);
-Route::get('/who', [TourController::class, 'who']);
+Route::get('/', [TourController::class, 'home'])->name('home');
+Route::get('/tour/{tourId}', [TourController::class, 'tour'])->name('tour');
+Route::get('/contact/{tourId}', [TourController::class, 'contact'])->name('contact');
+Route::get('/resume/{tourId}', [TourController::class, 'resume'])->name('resume');
+Route::get('/who', [TourController::class, 'who'])->name('who');
+Route::post('/order', [TourController::class, 'saveOrder']);
