@@ -19,6 +19,7 @@ class Tour extends Migration
             $table->string('image');
             $table->string('title');
             $table->string('cost');
+            $table->string('url');
             $table->text('images')->nullable();
             $table->softDeletes();
             $table->timestamps();

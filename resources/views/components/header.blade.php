@@ -23,14 +23,8 @@
     </div>
     <div class="max-w-6xl mx-auto px-4 sm:px-6 flex pb-2">
         <nav class="flex space-x-3 ml-auto">
-{{--            <a href="/" class="border-transparent text-white hover:border-red-theme whitespace-nowrap py-1 px-1 border-b-7 font-bold text-sm {{ request()->routeIs('home') ? 'border-red-theme': '' }}">--}}
-{{--                HOME--}}
-{{--            </a>--}}
             <a href="/" class="border-transparent text-white hover:border-red-theme whitespace-nowrap py-1 px-1 border-b-7 font-bold text-lg {{ request()->routeIs('home') ? 'border-red-theme': '' }}">
                 TOURS
-            </a>
-            <a href="/who" class="border-transparent text-white hover:border-red-theme whitespace-nowrap py-1 px-1 border-b-7 font-bold text-lg {{ request()->routeIs('who') ? 'border-red-theme': '' }}">
-                WHO WE ARE
             </a>
             <a href="/" class="border-transparent text-white hover:border-red-theme whitespace-nowrap py-1 px-1 border-b-7 font-bold text-lg {{ request()->routeIs('more') ? 'border-red-theme': '' }}">
                 MORE
