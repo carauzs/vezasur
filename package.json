@@ -22,7 +22,7 @@
     },
     "dependencies": {
         "@tailwindcss/forms": "^0.3.2",
-        "dayjs": "^1.10.4",
+        "dayjs": "^1.10.5",
         "swiper": "^6.5.9",
         "vue": "^3.0.11"
     }

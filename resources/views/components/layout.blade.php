@@ -28,6 +28,7 @@
     @stack('scripts')
 
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/dev.css') }}" rel="stylesheet">
 </head>
 <body class="antialiased bg-gray-100 min-h-screen">
     <div class="flex flex-col min-h-screen">

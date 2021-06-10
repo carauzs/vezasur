@@ -16,12 +16,17 @@ mix
     .js('resources/js/tour.js', 'public/js')
     .js('resources/js/contact.js', 'public/js')
     .js('resources/js/resume.js', 'public/js')
+    .js('resources/js/home.js', 'public/js')
     .postCss('resources/css/tour.css', 'public/css', [
         require('tailwindcss'),
         require('postcss-nested'),
         require('postcss-import')
     ])
     .postCss('resources/css/app.css', 'public/css', [
+        require('tailwindcss'),
+        require('postcss-nested'),
+    ])
+    .postCss('resources/css/dev.css', 'public/css', [
         require('tailwindcss'),
         require('postcss-nested'),
     ])

@@ -26,9 +26,9 @@
             <a href="/" class="border-transparent text-white hover:border-red-theme whitespace-nowrap py-1 px-1 border-b-7 font-bold text-lg {{ request()->routeIs('home') ? 'border-red-theme': '' }}">
                 TOURS
             </a>
-            <a href="/" class="border-transparent text-white hover:border-red-theme whitespace-nowrap py-1 px-1 border-b-7 font-bold text-lg {{ request()->routeIs('more') ? 'border-red-theme': '' }}">
-                MORE
-            </a>
+{{--            <a href="/" lass="border-transparent text-white hover:border-red-theme whitespace-nowrap py-1 px-1 border-b-7 font-bold text-lg {{ request()->routeIs('more') ? 'border-red-theme': '' }}">
+MORE
+{{--            </a>--}}
         </nav>
     </div>
 </div>

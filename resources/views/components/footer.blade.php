@@ -3,7 +3,7 @@
     <div class="px-8 border-r-2 border-red-theme text-lg"><a href="/">TOURS</a></div>
 {{--    <div class="px-8 border-r-2 border-red-theme text-lg">COMPANY</div>--}}
     <div class="px-8 border-r-2 border-red-theme text-lg"><a href="/">MORE</a></div>
-    <div class="px-8 text-lg">CALL US: <a href="tel:+17863039208">+1 786 3039208</a></div>
+    <div class="px-8 text-lg">CALL US: <a href="tel:+17863039208">+1 305 925 75 71</a></div>
 </div>
 <div class="bg-footer-slider h-2.5"></div>
 <footer class="bg-black">
