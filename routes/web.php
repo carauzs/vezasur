@@ -16,6 +16,7 @@ use App\Http\Controllers\TourController;
 
 Route::get('/', [TourController::class, 'home'])->name('home');
 Route::get('/tour/{tourId}', [TourController::class, 'tour'])->name('tour');
+Route::get('/tour/{tourId}/checkout', [TourController::class, 'checkout'])->name('checkout');
 //Route::get('/contact/{tourId}', [TourController::class, 'contact'])->name('contact');
 //Route::get('/resume/{tourId}', [TourController::class, 'resume'])->name('resume');
 //Route::get('/who', [TourController::class, 'who'])->name('who');

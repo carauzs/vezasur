@@ -18,9 +18,9 @@ class TourSeeder extends Seeder
     {
         DB::table('tour')->truncate();
         $tours = [
-            ['WYNWOOD', 'vezasur5.png', '2 HOUR RIDE OF GOOD VIBES', '500', 'https://book.peek.com/s/ceb11bc6-b839-42e9-887e-23d7d1fcad2a/loxXE'],
-            ['MIAMI BEACH', 'vezasur1.png', '2 HOUR RIDE OF GOOD VIBES', '500', 'https://book.peek.com/s/ceb11bc6-b839-42e9-887e-23d7d1fcad2a/JyD1L'],
-            ['DOWNTOWN/BRICKELL', 'vezasur6.png', '2 HOUR RIDE OF GOOD VIBES', '500', 'https://book.peek.com/s/ceb11bc6-b839-42e9-887e-23d7d1fcad2a/XDvLq'],
+            ['WYNWOOD', 'vezasur5.png', '2 HOUR RIDE OF GOOD VIBES', '600', 'https://book.peek.com/s/ceb11bc6-b839-42e9-887e-23d7d1fcad2a/loxXE'],
+            ['MIAMI BEACH', 'vezasur1.png', '2 HOUR RIDE OF GOOD VIBES', '600', 'https://book.peek.com/s/ceb11bc6-b839-42e9-887e-23d7d1fcad2a/JyD1L'],
+            ['LITLE HAVANA', 'vezasur6.png', '2 HOUR RIDE OF GOOD VIBES', '600', 'https://book.peek.com/s/ceb11bc6-b839-42e9-887e-23d7d1fcad2a/XDvLq'],
         ];
         foreach ($tours as $tour) {
             $record = new Tour();

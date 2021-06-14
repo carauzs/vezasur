@@ -60,10 +60,10 @@
                 <div class="col-span-1">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
                         <div class="col-span-1">
-                            <a href="/" class="inline-flex justify-center w-60 py-2 border border-transparent leading-4 font-bold text-lg rounded-md shadow-sm text-white bg-black hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-700">TOURS</a>
+                            <a href="/" class="inline-flex justify-center w-full py-2 border border-transparent leading-4 font-bold text-lg rounded-md shadow-sm text-white bg-black hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-700">TOURS</a>
                         </div>
                         <div class="col-span-1">
-                            <a href="{{ $tour->url }}" class="inline-flex justify-center w-60 py-2 border border-transparent leading-4 font-bold text-lg rounded-md shadow-sm text-white bg-black hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-700">CONTINUE</a>
+                            <a href="{{ $tour->url }}" class="inline-flex justify-center w-full py-2 border border-transparent leading-4 font-bold text-lg rounded-md shadow-sm text-white bg-black hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-700">CONTINUE</a>
                         </div>
                     </div>
                 </div>

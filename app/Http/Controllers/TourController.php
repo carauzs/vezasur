@@ -16,6 +16,13 @@ class TourController extends Controller
         ]);
     }
 
+    public function checkout(Request $request, $tourId)
+    {
+        return view('checkout', [
+            'tour' => Tour::find($tourId)
+        ]);
+    }
+
     public function tour(Request $request, $tourId)
     {
         $info = '';
@@ -27,7 +34,7 @@ class TourController extends Controller
                 $info = 'Wanna feel immersed in the city’s skyscrapers and amazing views? Hop on this tour to Downtown’s top places.';
                 break;
             case 3:
-                $info = 'Art Deco district is perfect for La Rumba! Miami Beach is the perfect destination for the best party.';
+                $info = 'Welcome to El Corazon de Miami! Little Havanna is the perfect spot in the city to meet with the cuban roots, the best salsa and some more fun. Que siga la fiesta!';
                 break;
 
         }
