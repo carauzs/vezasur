@@ -26,8 +26,4 @@ mix
         require('tailwindcss'),
         require('postcss-nested'),
     ])
-    .postCss('resources/css/dev.css', 'public/css', [
-        require('tailwindcss'),
-        require('postcss-nested'),
-    ])
     .copyDirectory('resources/images', 'public/images');
